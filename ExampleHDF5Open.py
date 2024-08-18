@@ -15,12 +15,12 @@ import os
 try:
     from IPython import get_ipython # needed to run magic commands
     ipython = get_ipython() # needed to run magic commands
-    ipython.magic('matplotlib qt') # display figures in a separate window
+    ipython.run_line_magic('matplotlib','qt') # display figures in a separate window
 except: pass
 
 # Parameters
 downloads_path = os.path.expanduser('~/Downloads')
-file = 'HDF5 Exports/2021-07-13 TCR Phase 1 Build 1.hdf5'
+file = '2021-07-13 TCR Phase 1 Build 1.hdf5'
 path_file = os.path.join(downloads_path, file) # path to your HDF5 file
 probe_layer = 50 # layer number to extract
 
