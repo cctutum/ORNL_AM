@@ -9,6 +9,7 @@ import matplotlib.colors as mcolors # used for vector graphics
 import matplotlib.cm as cm # used for vector graphics
 import matplotlib.collections as collections # used for vector graphics
 import numpy as np
+import os
 
 # Needed to enable plotting if using the Spyder IDE
 try:
@@ -18,7 +19,9 @@ try:
 except: pass
 
 # Parameters
-path_file = 'D:/Temp/HDF5 Exports/2021-07-13 TCR Phase 1 Build 1.hdf5' # path to your HDF5 file
+downloads_path = os.path.expanduser('~/Downloads')
+file = 'HDF5 Exports/2021-07-13 TCR Phase 1 Build 1.hdf5'
+path_file = os.path.join(downloads_path, file) # path to your HDF5 file
 probe_layer = 50 # layer number to extract
 
 #-----------------------------------------------------------------------------
