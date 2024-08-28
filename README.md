@@ -1,4 +1,4 @@
-# A Co-Registered In-Situ and Ex-Situ Dataset from a LPBF-AM Process (Peregrine v2023-10)
+# A Co-Registered In-Situ and Ex-Situ Dataset from a Laser-PBF-AM Process (Peregrine v2023-10)
 
 ![](figures/DSC04469A.png)
 
